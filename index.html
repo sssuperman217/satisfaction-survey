@@ -9,24 +9,28 @@
 <body>
   <h1>満足度調査</h1>
   <div class="face-scale">
+    <!-- 非常に満足 -->
     <div class="face-item">
-      <img src="sad-face.png" alt="Very dissatisfied" onclick="selectFace(4, this)">
-      <p>不満</p>
+      <img src="very-satisfied-face.png" alt="Very satisfied" onclick="selectFace(4, this)">
+      <p>非常に満足</p>
       <p class="result-text">0票</p>
     </div>
+    <!-- 満足 -->
     <div class="face-item">
-      <img src="neutral-face.png" alt="Somewhat dissatisfied" onclick="selectFace(3, this)">
-      <p>やや不満</p>
-      <p class="result-text">0票</p>
-    </div>
-    <div class="face-item">
-      <img src="satisfied-face.png" alt="Neutral" onclick="selectFace(2, this)">
+      <img src="satisfied-face.png" alt="Satisfied" onclick="selectFace(3, this)">
       <p>満足</p>
       <p class="result-text">0票</p>
     </div>
+    <!-- やや不満 -->
     <div class="face-item">
-      <img src="very-satisfied-face.png" alt="Satisfied" onclick="selectFace(1, this)">
-      <p>非常に満足</p>
+      <img src="neutral-face.png" alt="Somewhat dissatisfied" onclick="selectFace(2, this)">
+      <p>やや不満</p>
+      <p class="result-text">0票</p>
+    </div>
+    <!-- 不満 -->
+    <div class="face-item">
+      <img src="sad-face.png" alt="Very dissatisfied" onclick="selectFace(1, this)">
+      <p>不満</p>
       <p class="result-text">0票</p>
     </div>
   </div>
@@ -34,4 +38,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
